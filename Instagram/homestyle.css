@@ -1,0 +1,234 @@
+main {
+    margin-bottom: 47px;
+}
+
+.top {
+    height: 45px;
+}
+
+.head {
+    display: flex;
+    font-size: 16px;
+    position: fixed;
+    flex-direction: column;
+    width: 375px;
+    background-color: white;
+}
+
+.head::before {
+    background-color: rgba(0, 0, 0, .0975);
+    bottom: -1px;
+    content: '';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.headtop {
+    align-items: center;
+    height: 44px;
+    padding: 0 16px;
+    display: inline-flex;
+}
+
+.icontop {
+    height: 30px;
+}
+
+.leftpart {
+    margin-right: 105px;
+    margin-left: -10px;
+}
+
+.texttop {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.texttop::before {
+    background-color: rgb(0, 0, 0);
+    bottom: 0;
+    content: '';
+    height: 1px;
+    width: 95px;
+    position: absolute;
+}
+
+.rightpart {
+    margin-left: 110px;
+}
+
+.histories {
+    overflow: scroll;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.historia {
+    display: grid;
+}
+
+.borde {
+    padding: 10px;
+}
+
+.fotohistoria {
+    border-radius: 50%;
+    width: 60px;
+    border: solid;
+    border-color: red;
+    border-width: 2px;
+}
+
+.fotohistoria1 {
+    border-radius: 50%;
+    width: 60px;
+    padding: 3px;
+}
+
+.mia {
+    padding: 9px;
+}
+
+.redborder {
+    color: red;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.text {
+    text-align: center;
+    margin-top: -2px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.perfil {
+    display: flex;
+    height: 40px;
+}
+
+
+.fotoperfil {
+    border-radius: 50%;
+    max-width: 40px;
+    margin: 5px;
+}
+
+.bloqueinfo {
+    display: block;
+    line-height: 2px;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-right: 170px;
+}
+
+.nombre {
+    font-size: 1rem;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.iconmain {
+    width: 25px;
+    margin-top: 10px;
+}
+
+.fotosubida {
+    margin-top: 10px;
+    max-width: 375px;
+}
+
+.zonainteractiva {
+    display: flex;
+    padding: 2px;
+}
+
+.icono {
+    width: 35px;
+    height: 35px;
+}
+
+.spr {
+    margin-left: 5px;
+}
+
+.spr1 {
+    margin-left: 210px;
+}
+
+.likes {
+    padding: 5px;
+    display: flex;
+}
+
+.iconlikes {
+    width: 25px;
+    height: 25px;
+    padding-right: 4px;
+    margin-top: -2px;
+}
+
+.textolikes {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.comentarios {
+    margin-left: 10px;
+}
+
+.resto {
+    color: gray;
+    padding: 5px 0 0;
+}
+
+.tiempo {
+    color: gray;
+    font-size: 10px;
+    padding-top: 2px;
+}
+
+@media only screen and (min-width: 768px) {
+    .head {
+        width: 500px;
+    }
+
+    .icontop {
+        height: 50px;
+    }
+
+    .leftpart {
+        margin-right: 150px;
+    }
+
+    .rightpart {
+        margin-left: 150px;
+    }
+
+    .historia {
+        width: 100px;
+    }
+
+    .histories {
+        width: 515;
+    }
+
+    .fotosubida {
+        margin-top: 10px;
+        max-width: 500px;
+    }
+
+    .spr1 {
+        margin-left: 339px;
+    }
+
+    .iconmain {
+        margin-left: 125px;
+    }
+
+    .topdown2 {
+        width: 500px;
+        background-color: white;
+    }
+}
